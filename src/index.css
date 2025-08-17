@@ -1,0 +1,7 @@
+@import url("./reset.css");
+
+:root {
+    --gray: rgb(15 23 42 / var(--tw-bg-opacity, 1));
+    --light-gray: rgb(55 65 81 / var(--tw-border-opacity, 1));
+
+}

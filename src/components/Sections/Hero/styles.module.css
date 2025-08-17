@@ -1,0 +1,49 @@
+.hero {
+    background-image: linear-gradient(to right, rgb(15 23 42 / 0.8), rgb(30 58 138 / 0.7)), var(--bg-image);
+
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+
+    height: 100vh;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    text-align: center;
+}
+
+.heroContent {
+    color: white; 
+    padding: 1.5rem;
+}
+
+.title {
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+}
+
+.subtitle {
+    font-size: 1.2rem;
+    line-height: 1.75rem;
+    font-weight: 300;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+/* Estilos para telas maiores (Desktop) */
+@media (min-width: 768px) {
+    .hero {
+        /* A media query já estava correta, mas agora o estilo mobile também tem o filtro */
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), var(--bg-image);
+        height: 80vh; 
+    }
+
+    .title {
+        font-size: 4rem;
+    }
+
+    .subtitle {
+        font-size: 1.5rem;
+    }
+}

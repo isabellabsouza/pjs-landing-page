@@ -1,0 +1,87 @@
+/* Estilos para Mobile First (tela pequena) */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 1rem 1.5rem;
+    position: relative; /* Para posicionar a lista de links */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logoContainer {
+    z-index: 2; /* Para o logo ficar na frente do menu */
+}
+
+.logoLink {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-weight: bold;
+    color: #333;
+    text-decoration: none;
+}
+
+.logo {
+    height: 40px;
+}
+
+.menuButton {
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    z-index: 2; /* Para o botão ficar na frente do menu */
+}
+
+.navList {
+    /* Estilos do menu em mobile - começa escondido */
+    position: absolute;
+    top: 100%; /* Abaixo da navbar */
+    left: 0;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 1.5rem;
+    list-style: none;
+    padding: 1.5rem 0;
+    transform: translateY(-100%); /* Move para cima para esconder */
+    opacity: 0;
+    transition: transform 0.3s ease-out, opacity 0.3s ease-out;
+    pointer-events: none; /* Impede cliques quando escondido */
+    z-index: 1;
+}
+
+/* Estilo para mostrar o menu quando a classe 'navListOpen' for ativada */
+.navListOpen {
+    transform: translateY(0); /* Volta para a posição original */
+    opacity: 1;
+    pointer-events: auto; /* Permite cliques */
+}
+
+.navList li a {
+    color: #333;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+/* Estilos para Desktop (tela grande) */
+@media (min-width: 768px) {
+    .menuButton {
+        display: none; /* Esconde o botão em telas maiores */
+    }
+
+    .navList {
+        /* Estilos do menu em desktop */
+        position: static; /* Remove o posicionamento absoluto */
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 2rem;
+        transform: translateY(0);
+        opacity: 1;
+        pointer-events: auto;
+    }
+}

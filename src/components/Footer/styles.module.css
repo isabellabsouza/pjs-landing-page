@@ -1,0 +1,13 @@
+.footer {
+    background-color: var(--gray);
+    padding-block: 3rem;
+    padding-inline: 1.5rem;
+    color: white;
+    text-align: center;
+}
+
+.footerText {
+    padding-top: 2rem;
+    border-top: 1px solid var(--light-gray);
+    margin-top: 2rem;
+}
