@@ -1,0 +1,22 @@
+.iconWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+    border-radius: 0.5rem;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.companyName {
+    font-weight: bold;
+    font-size: 1.25rem;
+}

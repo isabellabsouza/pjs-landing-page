@@ -11,3 +11,13 @@
     border-top: 1px solid var(--light-gray);
     margin-top: 2rem;
 }
+
+.socialMedia {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    font-size: 1.5rem;
+    color: var(--light-gray);
+    font-weight: bold;
+}

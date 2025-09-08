@@ -1,21 +1,24 @@
 import styles from './styles.module.css';
-import Icon from '../../assets/favicon.png';
-import { FaInstagram } from "react-icons/fa";
+import { FaInstagram, FaWhatsapp } from "react-icons/fa";
 import { CiLinkedin } from "react-icons/ci";
+import texts from '../../../content.json';
+import Icon from '../Icon';
 
 export default function Footer() {
+    const footer = texts.footer;
+
     return (
         <footer className={styles.footer}>
-            <div>
-                <img src={Icon} alt="Logo" className={styles.logo} />
-                <span>PJS Distribuidora</span>
-            </div>
-            <div>
+            <Icon 
+                backgroundColor= "--red"
+            />
+            <div className={styles.socialMedia}>
                 <FaInstagram />
+                <FaWhatsapp />
                 <CiLinkedin />
             </div>
             <div className={styles.footerText}>
-                <p>© 2024 PJS Distribuidora. Todos os direitos reservados.</p>
+                <p>{footer.text}</p>
             </div>
         </footer>
     )

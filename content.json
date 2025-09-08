@@ -1,0 +1,69 @@
+{
+    "productsSection": {
+        "title": "Nossos Produtos",
+        "subtitle": "Peças elétricas automotivas de alta qualidade para todas as suas necessidades",
+        "categories": [
+            "Alternadores",
+            "Motores de Partida",
+            "Bombas de Água",
+            "Velas de Ignição",
+            "Filtros de Óleo",
+            "Filtros de Ar",
+            "Filtros de Combustível",
+            "Cabos de Vela",
+            "Correias Dentadas",
+            "Correias Poly V",
+            "Baterias"
+        ]
+    },
+    "aboutUsSection": {
+        "title": "Sobre a PJS Distribuidora",
+        "subtitle": "A PJS Distribuidora conta com profissionais com anos de experiência no mercado, oferecendo produtos de alta qualidade, assessoria especializada e garantia que você pode confiar.",
+        "highlights": [
+            {
+                "icon": "FaShieldAlt",
+                "title": "ATÉ 1 ANO DE GARANTIA",
+                "description": "Todos os nossos produtos contam com garantia de até 1 ano, oferecendo segurança e tranquilidade na sua compra."
+            },
+            {
+                "icon": "FaUser",
+                "title": "ASSESSORIA ESPECIALIZADA",
+                "description": "Nossa equipe técnica qualificada está pronta para orientar você na escolha da peça ideal para o seu veículo."
+            },
+            {
+                "icon": "FaAward",
+                "title": "QUALIDADE E DESIGN ORIGINAL",
+                "description": "Trabalhamos apenas com fornecedores certificados, garantindo peças originais e de alta qualidade."
+            }
+        ]
+    },
+    "contactSection": {
+        "title": "Entre em Contato",
+        "subtitle": "Estamos prontos para atender você. Fale conosco!",
+        "highlights": [
+            {
+                "icon": "FaEnvelope",
+                "title": "Email",
+                "description": "email"
+            },
+            {
+                "icon": "FaPhone",
+                "title": "Telefone",
+                "description": "(11) 1234-5678"
+            },
+            {
+                "icon": "FaWhatsapp",
+                "title": "Horário de Atendimento",
+                "description": "Segunda a Sexta: 8h - 18h"
+            },
+            {
+                "icon": "FaInstagram",
+                "title": "Instagram",
+                "description": "@pjsdistribuidora"
+            }
+        ]
+    },
+    "footer": {
+        "text": "© 2024 PJS Distribuidora. Todos os direitos reservados."
+    }
+}

@@ -14,21 +14,39 @@
 
 .heroContent {
     color: white; 
-    padding: 1.5rem;
+    padding: 2rem;
 }
 
 .title {
     font-size: 3rem;
     margin-bottom: 1.5rem;
     font-weight: bold;
+    line-height: 4rem;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
 }
 
 .subtitle {
-    font-size: 1.2rem;
-    line-height: 1.75rem;
+    font-size: 1.4rem;
+    line-height: 2rem;
     font-weight: 300;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.btnProducts {
+    margin-top: 2rem;
+    padding: 1rem 1.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    background-color: var(--red);
+    border: none;
+    border-radius: 0.375rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btnProducts:hover {
+    background-color: rgb(185 28 28);
 }
 
 /* Estilos para telas maiores (Desktop) */
