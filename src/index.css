@@ -2,11 +2,13 @@
 
 :root {
     --gray: rgb(15 23 42 / var(--tw-bg-opacity, 1));
-    --light-gray: rgb(55 65 81 / var(--tw-border-opacity, 1));
+    --light-gray: rgb(156 163 175 / var(--tw-text-opacity, 1));
     --red: rgb(220 38 38 / var(--tw-bg-opacity, 1));
     --title-color: rgb(15 23 42 / var(--tw-text-opacity, 1));
     --border-color: rgb(229 231 235 / var(--tw-border-opacity, 1));
     --blue: rgb(30 58 138 / var(--tw-bg-opacity, 1));
+    --bg-gray: rgb(249 250 251 / var(--tw-bg-opacity, 1));
+    --dark-gray: rgb(100 116 139 / var(--tw-text-opacity, 1));
 }
 
 body {
@@ -18,7 +20,7 @@ body {
 }
 
 h2 {
-    font-size: 2.5rem;
+    font-size: 2.4rem;
     font-weight: 700;
     color: var(--title-color);
     margin-bottom: 1rem;
@@ -31,7 +33,22 @@ h2 {
 }
 
 .contentSubtitle {
-  font-size: 1.25rem;
+  font-size: 1.2rem;
   line-height: 1.75rem;
-  color: var(--light-gray);  
+  color: var(--dark-gray);  
+  font-weight: 400;
+}
+
+.highlightsWrapper {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+
+@media (min-width: 800px) {
+    .highlightsWrapper {
+        flex-direction: row;
+        justify-content: space-evenly;
+        column-gap: 1.5rem;
+    }
 }

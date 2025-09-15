@@ -14,13 +14,13 @@ export default function ContactSection() {
     };
 
     return (
-        <section className='contentSection'>
+        <section id='contact' className='contentSection' style={{ backgroundColor: 'var(--bg-gray)' }}>
             <div className='contentHeader'>
                 <h2>{contactText.title}</h2>
-                <p>{contactText.subtitle}</p>
+                <p className='contentSubtitle'>{contactText.subtitle}</p>
             </div>
 
-            <div className={styles.highlightsWrapper}>
+            <div className='highlightsWrapper'>
                 {contactText.highlights.map((item, index) => {
                     const IconComponent = iconsMap[item.icon];
 
@@ -31,6 +31,7 @@ export default function ContactSection() {
                             title={item.title}
                             description={item.description}
                             backgroundColor="--red"
+                            small
                         />
                     )
                 })}

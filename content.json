@@ -14,6 +14,18 @@
             "Correias Dentadas",
             "Correias Poly V",
             "Baterias"
+        ],
+        "products": [
+            {
+                "title": "Motor Limpador 12v Compatível Com 64343403 7089395 Para Fiat",
+                "image": "https://com-automotive.com/wp-content/uploads/2024/09/9390453045_90003045_COM_0-300x300.jpg.webp",
+                "mercadoLivreLink": "https://www.mercadolivre.com.br/motor-limpador-12v-compativel-com-64343403-7089395-para-fiat/up/MLBU3065860105?pdp_filters=condition%3Anew%7Cinstallments%3Ano_interest%7Cadult_content%3Ayes%7Cseller_id%3A2213458536#polycard_client=mshops-appearance-api&source=eshops&component=tabbed_carousel&title=Cuotas+sin+inter%C3%A9s&tracking_id=b21408b7-7bb3-4558-8025-b20bee70599b&global_position=10"
+            },
+            {
+                "title": "Motor Limpador 12V 40W 5vias compatível9390453086 MB ATRON",
+                "image": "https://com-automotive.com/wp-content/uploads/2024/09/9390453086_90003086_COM_0-300x300.jpg.webp",
+                "mercadoLivreLink": "https://www.mercadolivre.com.br/motor-de-partida-24v-10d-compativel-f002g20904-ford-cargo/up/MLBU3073751580?pdp_filters=condition%3Anew%7Cinstallments%3Ano_interest%7Cadult_content%3Ayes%7Cseller_id%3A2213458536#polycard_client=mshops-appearance-api&source=eshops&component=tabbed_carousel&title=Cuotas+sin+inter%C3%A9s&tracking_id=c7b55813-d20b-4cb0-aff5-59f43f4ec8a3&global_position=10"
+            }
         ]
     },
     "aboutUsSection": {
@@ -44,7 +56,7 @@
             {
                 "icon": "FaEnvelope",
                 "title": "Email",
-                "description": "email"
+                "description": "contato@pjsdistribuidora.com"
             },
             {
                 "icon": "FaPhone",

@@ -52,9 +52,8 @@
 /* Estilos para telas maiores (Desktop) */
 @media (min-width: 768px) {
     .hero {
-        /* A media query já estava correta, mas agora o estilo mobile também tem o filtro */
-        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), var(--bg-image);
-        height: 80vh; 
+        /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), var(--bg-image); */
+        height: 90vh; 
     }
 
     .title {

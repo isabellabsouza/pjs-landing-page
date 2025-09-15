@@ -23,9 +23,9 @@ export default function Navbar() {
 
             <ul className={`${styles.navList} ${isMenuOpen ? styles.navListOpen : ''}`}>
                 <li><a href="#home" onClick={toggleMenu}>Home</a></li>
-                <li><a href="#about" onClick={toggleMenu}>About</a></li>
-                <li><a href="#services" onClick={toggleMenu}>Services</a></li>
-                <li><a href="#contact" onClick={toggleMenu}>Contact</a></li>
+                <li><a href="#products" onClick={toggleMenu}>Produtos</a></li>
+                <li><a href="#about" onClick={toggleMenu}>Sobre</a></li>
+                <li><a href="#contact" onClick={toggleMenu}>Contato</a></li>
             </ul>
         </nav>
     )

@@ -13,7 +13,7 @@ export default function AboutUsSection() {
     };
 
     return (
-        <section className='contentSection'>
+        <section id='about' className='contentSection'>
             <div className='contentHeader'>
                 <h2>{aboutUsText.title}</h2>
                 <p className='contentSubtitle'>{aboutUsText.subtitle}</p>
