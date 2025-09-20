@@ -1,5 +1,6 @@
 import styles from './styles.module.css';
 import Icon from '../../assets/favicon.png';
+import Logo from '../../assets/Logo.png';
 import { useState } from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa';
 
@@ -14,7 +15,8 @@ export default function Navbar() {
         <nav className={styles.navbar}>
             <div className={styles.logoContainer}>
                 <a href="#home" className={styles.logoLink}>
-                    <img src={Icon} alt="Logo" className={styles.logo} /> PJS Distribuidora
+                    <img src={Logo} alt="Logo" className={styles.logo} /> 
+                    PJS Distribuidora
                 </a>
             </div>
             <button className={styles.menuButton} onClick={toggleMenu}>
