@@ -27,3 +27,22 @@
     color: var(--light-gray);
     font-weight: bold;
 }
+
+.socialMedia a {
+    color: var(--light-gray);
+    transition: color 0.3s ease;
+}
+
+.socialMedia a:hover {
+    color: var(--red);
+}
+
+.socialMediaIcon {
+    font-size: 1.5rem;
+    transition: color 0.3s ease;
+    width: auto;
+}
+
+.logo {
+    height: 32px;
+}

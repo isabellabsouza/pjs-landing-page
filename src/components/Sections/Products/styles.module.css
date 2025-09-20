@@ -54,6 +54,11 @@
     text-align: center;
     transition: transform 0.2s, box-shadow 0.2s;
     margin-bottom: 2rem;
+
+    &:hover {
+        transform: scale(1.02);
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
 }
 
 .cardTitle {
@@ -84,6 +89,7 @@ a {
     border: none;
     border-radius: 8px;
     font-size: 0.8rem;
+    cursor: pointer;
 }
 /* Para telas maiores (desktop) */
 @media (min-width: 768px) {
