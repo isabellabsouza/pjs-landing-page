@@ -13,9 +13,15 @@ export default function Footer() {
                 backgroundColor= "--red"
             />
             <div className={styles.socialMedia}>
-                <FaInstagram />
-                <FaWhatsapp />
-                <CiLinkedin />
+                <a href={footer.socialMedia.instagram} target="_blank" rel="noopener noreferrer" className={styles.socialMediaIcon}>
+                    <FaInstagram />
+                </a>
+                <a href={footer.socialMedia.whatsapp} target="_blank" rel="noopener noreferrer" className={styles.socialMediaIcon}>
+                    <FaWhatsapp />
+                </a>
+                <a href={footer.socialMedia.linkedin} target="_blank" rel="noopener noreferrer" className={styles.socialMediaIcon}>
+                    <CiLinkedin />
+                </a>
             </div>
             <div className={styles.footerText}>
                 <p>{footer.text}</p>

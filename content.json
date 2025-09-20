@@ -56,26 +56,40 @@
             {
                 "icon": "FaEnvelope",
                 "title": "Email",
-                "description": "contato@pjsdistribuidora.com"
+                "description": "contato@pjsdistribuidora.com",
+                "link": "mailto:contato@pjsdistribuidora.com"
             },
             {
                 "icon": "FaPhone",
-                "title": "Telefone",
-                "description": "(11) 1234-5678"
+                "title": "Telefone / WhatsApp",
+                "description": "(11) 9 6626-6153",
+                "link": "https://wa.me/5511966266153"
             },
             {
-                "icon": "FaWhatsapp",
+                "icon": "FaHeadset",
                 "title": "Horário de Atendimento",
                 "description": "Segunda a Sexta: 8h - 18h"
             },
             {
                 "icon": "FaInstagram",
                 "title": "Instagram",
-                "description": "@pjsdistribuidora"
+                "description": "@pjsdistribuidora",
+                "link": "https://instagram.com/pjsdistribuidora"
+            },
+            {
+                "icon": "FaLinkedin",
+                "title": "LinkedIn",
+                "description": "@pjs-distribuidora",
+                "link": "https://www.linkedin.com/company/pjs-distribuidora/"
             }
         ]
     },
     "footer": {
-        "text": "© 2024 PJS Distribuidora. Todos os direitos reservados."
+        "text": "© 2024 PJS Distribuidora. Todos os direitos reservados.",
+        "socialMedia": {
+            "instagram": "https://instagram.com/pjsdistribuidora",
+            "whatsapp": "https://wa.me/5511966266153",
+            "linkedin": "https://www.linkedin.com/company/pjs-distribuidora/"
+        }
     }
 }

@@ -1,7 +1,7 @@
 import styles from './styles.module.css';
 import texts from '../../../../content.json';
 import Highlights from '../../Highlights';
-import { FaEnvelope, FaPhone, FaWhatsapp, FaInstagram } from 'react-icons/fa';
+import { FaEnvelope, FaPhone, FaWhatsapp, FaInstagram, FaLinkedin, FaHeadset } from 'react-icons/fa';
 
 export default function ContactSection() {
 
@@ -10,7 +10,9 @@ export default function ContactSection() {
         FaEnvelope: FaEnvelope,
         FaPhone: FaPhone,
         FaWhatsapp: FaWhatsapp,
-        FaInstagram: FaInstagram
+        FaInstagram: FaInstagram,
+        FaLinkedin: FaLinkedin,
+        FaHeadset: FaHeadset
     };
 
     return (
@@ -31,6 +33,7 @@ export default function ContactSection() {
                             title={item.title}
                             description={item.description}
                             backgroundColor="--red"
+                            link={item.link}
                             small
                         />
                     )
